@@ -9,6 +9,7 @@ profile:
   image: amir_profile.png
   image_circular: false # crops the image to make it circular
   address: >
+    <p>Contact me:</p>
     <p>amir(at)ajgl.blog</p>
 
 latest_posts: true  # includes a list of the newest posts
