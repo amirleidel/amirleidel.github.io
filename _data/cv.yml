@@ -1,12 +1,12 @@
-- title: General Information
+- title: General Info
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Amir J. G. Leidel
     - name: Date of Birth
-      value: 14th March 1879
+      value: 09.06.2000
     - name: Languages
-      value: English, German
+      value: "English, German, Tatar (basics: Italian, Japanese)"
 
 - title: Education
   type: time_table
@@ -61,25 +61,14 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Interests and Hobbies
   type: nested_list
   contents:
     - title: Topic 1.
@@ -91,7 +80,3 @@
         - Description 1.
         - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
