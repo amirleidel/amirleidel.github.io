@@ -1,0 +1,5 @@
+pelican[markdown]
+typogrify
+beautifulsoup4
+pelican-render-math
+pelican-seo
