@@ -12,6 +12,8 @@ I hope you will find something intriguing among my projects, where I attempt to 
 physics to seemingly ordinary things in order to understand and describe them.
 
 If you come across something you would like to talk about, please feel free to contact me at my email
-adress or using my social media handles provided below.
+adress below.
 
-Stay safe and have a nice time.
+```
+	amir(at)agjl.blog
+```
