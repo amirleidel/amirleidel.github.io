@@ -1,7 +1,7 @@
 Title: Snowflakes
 Date: 2024-12-26 23:52
 Category: Python
-Tags: pelican, publishing
+Tags: cellular automaton, convolution
 Authors: Amir J. G. Leidel
 Summary: Some computer-generated snowflakes
 
