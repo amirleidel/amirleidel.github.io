@@ -7,7 +7,7 @@ Summary: Some computer-generated snowflakes
 
 # Some computer-generated snowflakes for Christmas.
 
-![Snowflake](./images/snowflake4_4_2_1_1_1_4_0_0.jpg '4,4,2,1,1,1,4,0,0')
+![Snowflake](../images/snowflake4_4_2_1_1_1_4_0_0.jpg '4,4,2,1,1,1,4,0,0')
 
 I was experimenting with an idea regarding procedural generation of maps and cityscapes. And one way of going about this is by using cellular automata. So, for example, you can create whole maze-like structures, which you can see at [https://conwaylife.com/wiki/OCA:Maze](https://conwaylife.com/wiki/OCA:Maze). 
 
@@ -57,13 +57,13 @@ a & b & c & d & O & d & c & b & a \\
 $$
 where $O,a,b,c,d,e,f,g,h$ are integers modulo 5. Iterating this operation on a field made of only a single pixel thats one in the center yields beautiful patterns that grow outward. On the upper left you can see an up-scaled representation of the kernel that I used. Also, hovering over the images should yield you the specific values of $O,a,b,c,d,e,f,g,h$.
 
-![Snowflake](./images/snowflake0_4_4_4_2_1_0_1_0.jpg '0,4,4,4,2,1,0,1,0')
-![Snowflake](./images/snowflake1_3_4_4_0_1_1_1_0.jpg '1,3,4,4,0,1,1,1,0')
-![Snowflake](./images/snowflake2_0_4_4_4_0_1_1_1.jpg '2,0,4,4,4,0,1,1,1')
-![Snowflake](./images/snowflake3_4_4_1_4_0_0_0_1.jpg '3,4,4,1,4,0,0,0,1')
-![Snowflake](./images/snowflake4_1_0_0_4_1_1_0_1.jpg '4,1,0,0,4,1,1,0,1')
-![Snowflake](./images/snowflake4_2_2_3_1_1_1_1_1.jpg '4,2,2,3,1,1,1,1,1')
-![Snowflake](./images/snowflake4_4_1_1_2_1_1_1_1.jpg '4,4,1,1,2,1,1,1,1')
+![Snowflake](../images/snowflake0_4_4_4_2_1_0_1_0.jpg '0,4,4,4,2,1,0,1,0')
+![Snowflake](../images/snowflake1_3_4_4_0_1_1_1_0.jpg '1,3,4,4,0,1,1,1,0')
+![Snowflake](../images/snowflake2_0_4_4_4_0_1_1_1.jpg '2,0,4,4,4,0,1,1,1')
+![Snowflake](../images/snowflake3_4_4_1_4_0_0_0_1.jpg '3,4,4,1,4,0,0,0,1')
+![Snowflake](../images/snowflake4_1_0_0_4_1_1_0_1.jpg '4,1,0,0,4,1,1,0,1')
+![Snowflake](../images/snowflake4_2_2_3_1_1_1_1_1.jpg '4,2,2,3,1,1,1,1,1')
+![Snowflake](../images/snowflake4_4_1_1_2_1_1_1_1.jpg '4,4,1,1,2,1,1,1,1')
 
 Every one of these needed just $i = 31$ iterations, it seems like $i$ has to be near a multiple of 5 (since I used this modulus) in order for the images to have interesting structure. At multiples of 5 they collapse in on themselves and only a field of disconnected pixels remains and at more than one iteration away from a multiple the ice crystals look rather noisy and chaotic.
 
