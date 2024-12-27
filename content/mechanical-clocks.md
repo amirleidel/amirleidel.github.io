@@ -4,6 +4,7 @@ Category: Physics
 Tags: mechanical clocks
 Authors: Amir J. G. Leidel
 Summary: An overview of how mechanical clocks keep time
+Status: hidden
 
 *This is something I realized that I had no idea about at first. It does not seem to be very mysterious what keeps them going, most often it is a wound up spring or weights on a pulley. But how exactly is this translated into the exactly paced rotation of the timepiece's hands? Why doesn't the pendulum of a clock stop after some time? And also, why do mechanical clocks tick?*
 

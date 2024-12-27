@@ -5,6 +5,7 @@ Tags: pelican, publishing
 Slug: my-super-post
 Authors: Amir J. G. Leidel
 Summary: Short version for index and feeds
+Status: hidden
 
 # This is the content of my super blog post.
 
