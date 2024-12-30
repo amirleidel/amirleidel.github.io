@@ -6,6 +6,7 @@ License: none (public domain)
 /* Modified by Jody Frankowski */
 /* Modified by ix5 */
 /* Modified by Tyler Carr */
+/* Modified by ajgl */
 
 :root {
     --main-bg-color: #1c2833;
@@ -35,7 +36,7 @@ time, mark, audio, video {
     border: 0;
     color: #BBB;
     font-size: 100%;
-    font: inherit;
+    font: monospace;
     vertical-align: baseline;
 }
 em {
@@ -70,7 +71,7 @@ table {
 }
 
 body {
-    font-family: Georgia, serif;
+    font-family: "Cascadia Code", "Consolas", monospace;
     font-size: 16px;
     line-height: 1.5em;
 }
@@ -95,7 +96,7 @@ ol {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: sans-serif;
+    font-family: monospace;
     font-weight: bold;
 }
 h1, h2, h3 {
@@ -149,7 +150,7 @@ thead {
 
 .info {
     margin-top: 1.3em;
-    font-family: sans-serif;
+    font-family: monospace;
     text-align: right;
     color: #BBB;
 }
@@ -315,7 +316,7 @@ header h2 {
 }
 
 .pages {
-    font-family: sans-serif;
+    font-family: monospace;
     line-height: 2.5em;
     margin: 4.5em 0 3em;
     background-color:  #2e4053;
@@ -368,7 +369,7 @@ code {
 }
 
 footer {
-    font-family: sans-serif;
+    font-family: monospace;
     line-height: 2.5em;
     text-align: center;
     color: #BBB;
