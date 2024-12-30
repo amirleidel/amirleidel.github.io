@@ -1,6 +1,6 @@
 AUTHOR = 'Amir J. G. Leidel'
 SITENAME = 'amirs-blog'
-SITEURL = "https://ajgl.blog"
+SITEURL = "https://www.ajgl.blog"
 
 from pelican.plugins import render_math
 PLUGINS = [render_math]
