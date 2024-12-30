@@ -3,7 +3,8 @@ Date: 2024-12-26 23:52
 Category: Python
 Tags: cellular automaton, convolution
 Authors: Amir J. G. Leidel
-Summary: Some computer-generated snowflakes
+Summary: Some computer-generated snowflakes.
+Cover: ../images/snowflake4_4_2_1_1_1_4_0_0.jpg,../images/snowflake3_4_4_1_4_0_0_0_1.jpg,../images/snowflake4_4_1_1_2_1_1_1_1.jpg
 
 # Some computer-generated snowflakes for Christmas.
 

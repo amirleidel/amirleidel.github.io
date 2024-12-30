@@ -9,16 +9,31 @@
                 </h2>
                 {% endif %}
 
-		{% if not articles_page %}
-		{% include "translations.html" %}
-		{% endif %}                
-                
+				{% if not articles_page %}
+				{% include "translations.html" %}
+				{% endif %}                
+						
+				<!--  Show article or preview summary -->
+				{% if not articles_page %}
+                {{ article.content }} <!-- Show article in full --> 
+				{% else %}
+				{{ article.summary }} <!-- Show article summary only --> 
+				<!-- Add article cover images (1 to 3 images) if defined--> 
+				{% if article.cover %}		
+				<div style="display: flex; justify-content: space-around; gap: 10px;">
+				  {% for image in article.cover.split(",") %}
+				  <div style="flex: 1; text-align: center;">
+					<img src="{{ image }}" alt="Cover Image {{ loop.index }}" style="max-width: 100%; height: auto;">
+				  </div>
+				  {% endfor %}
+				</div>
+				{% endif %}
+				{% endif %}
 
-                {{ article.content }}
                 <div class="clear"></div>
 
                 <div class="info">
-                    <a href="{{ SITEURL }}/{{ article.url }}">posted at {{ article.date.strftime("%H:%M") }}</a>
+                    <a href="{{ SITEURL }}/{{ article.url }}">posted on {{ article.date.strftime("%A %b %-m, %Y %H:%M") }}</a>
                     {% if article.category.name != "misc" %}
                     &nbsp;&middot;&nbsp;<a href="{{ SITEURL }}/{{ article.category.url }}" rel="tag">{{ article.category }}</a>
                     {% endif %}

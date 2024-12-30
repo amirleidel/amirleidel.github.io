@@ -42,6 +42,11 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+SUMMARY_MAX_PARAGRAPHS = 4
+SUMMARY_MAX_LENGTH = 200
+SUMMARY_END_SUFFIX = '…'
+WITH_FUTURE_DATES = False
+
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
