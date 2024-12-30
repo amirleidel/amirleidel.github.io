@@ -32,7 +32,7 @@ The Chinese number system does this grouping too, but by units of ten thousand, 
 
 The point that unites both these systems, the Western and Chinese, is that both are ultimately based on the number ten, so we have $10$ numerals for zero to nine, after those we count _ten plus_ zero to _ten plus_ nine &c. But apart from the fact that we have ten fingers, there is no particular reason we should use ten as the base of this numbering system. 
 
-Let us therefore introduce two new digits $\mathcal{X}$ and $\mathcal{E}$ with the numerical values of ten and eleven, so the base for this number system is twelve, also called _duodecimal_. Counting up from zero to $24$ would then look like (I will make duodecimal numbers with the index $12$)
+Let us therefore introduce two new digits $\mathcal{X}$ and $\mathcal{E}$ with the numerical values of ten and eleven, so the base for this number system is twelve, also called _duodecimal_. Counting up from zero to $24$ would then look like (I will mark duodecimal numbers with the index $12$)
 
 | Decimal notation  |  Duodecimal notation  |
 |:-------:|:-------:|
@@ -221,13 +221,13 @@ $$
 We can show that its numerical value is exactly equal to $10$ by rewriting it as a geometric series
 
 $$
-	9.999... = \sum_{i = 0}^\infty \left( \frac{9}{10} \right)^i
+	9.999... = \sum_{i = 0}^\infty 9 \left( \frac{1}{10} \right)^i
 $$
 
 which is equal to
 
 $$
-	9.999... = \frac{1}{1-\frac{9}{10}} = 10.
+	9.999... = 9 \frac{1}{1-\frac{1}{10}} = 10.
 $$
 
 By subtracting $9$ from both sides we also get the much more infamous expression $0.999... = 1$, with both sides being valid representations of the numerical value of one in decimal.
