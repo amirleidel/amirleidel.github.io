@@ -10,5 +10,5 @@ I hope you will find something intriguing among my projects, where I attempt to 
 If you come across something you would like to talk about, please feel free to contact me at my email adress below.
 
 ```
-	amir.leidel(at)stud.uni-heidelberg.de
+	amir(at)ajgl.blog
 ```

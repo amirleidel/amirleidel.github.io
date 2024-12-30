@@ -1,7 +1,8 @@
 AUTHOR = 'Amir J. G. Leidel'
 SITENAME = 'amirs-blog'
-SITEURL = "https://www.ajgl.blog"
+SITEURL = ""
 
+from datetime import datetime
 from pelican.plugins import render_math
 PLUGINS = [render_math]
 MATH_JAX = {"tex_extensions" : ["physics.js"],
@@ -15,8 +16,16 @@ PATH = "content"
 THEME = "theme"
 
 TIMEZONE = 'Europe/Rome'
+CURRENT_YEAR = datetime.today().strftime('%Y')
 
 DEFAULT_LANG = 'en'
+
+# Additional menu item
+MENUITEMS = (
+    ('GitHub', 'https://github.com/amirleidel'),)
+DISPLAY_FOOTER = True
+
+SITELOGO = ''
 
 STATIC_PATHS = [
     'images',
