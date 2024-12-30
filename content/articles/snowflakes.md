@@ -11,7 +11,7 @@ Summary: Some computer-generated snowflakes
 
 I was experimenting with an idea regarding procedural generation of maps and cityscapes. And one way of going about this is by using cellular automata. So, for example, you can create whole maze-like structures, which you can see at [https://conwaylife.com/wiki/OCA:Maze](https://conwaylife.com/wiki/OCA:Maze). 
 
-One consequence of being able to create very intricate patterns from simple rules, which is what cellular automata are about, is that you can make them follow basic geometric symmetries. It turns out that using hexagonal symmetry and discrete convoluton is all that you need to create beautiful snowflake like structures.
+One consequence of being able to create very intricate patterns from simple rules, which is what cellular automata are about, is that you can make them follow basic geometric symmetries. It turns out that using hexagonal symmetry and discrete convoluton is all that you need to create beautiful snowflake like structures. This is similar to cellular automata, but a convolution is less 'chaotic' since it is a linear transformation.
 
 ## Convolution kernel
 
@@ -74,4 +74,4 @@ A = \begin{bmatrix}
 0 & \frac{\sqrt{3}}{2} \\
 \end{bmatrix}
 $$
-has to be applied to the image, which yielded the result. In the upscaled kernel you can see that how this made the pixels rhombic, but at the large scale the pixels are hexagonally arranged.
+has to be applied to the image, which yielded the result. In the upscaled kernel you can see how this made the pixels rhombic, but at the large scale the pixels are hexagonally arranged.
