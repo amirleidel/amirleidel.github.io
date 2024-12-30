@@ -36,7 +36,7 @@ time, mark, audio, video {
     border: 0;
     color: #BBB;
     font-size: 100%;
-    font: "Cascadia Code", "Consolas", "Courier New", monospace;
+    font: "Cascadia Code", "Droid Sans Mono", "Consolas", monospace;
     vertical-align: baseline;
 }
 em {
@@ -71,7 +71,7 @@ table {
 }
 
 body {
-    font-family: "Cascadia Code", "Consolas", "Courier New", monospace;
+    font-family: "Cascadia Code", "Droid Sans Mono", "Consolas", monospace;
     font-size: 16px;
     line-height: 1.5em;
 }
@@ -96,7 +96,7 @@ ol {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Cascadia Code", "Consolas", "Courier New",monospace;
+    font-family: "Cascadia Code", "Droid Sans Mono", "Consolas", monospace;
     font-weight: bold;
 }
 h1, h2, h3 {
@@ -150,7 +150,7 @@ thead {
 
 .info {
     margin-top: 1.3em;
-    font-family: "Cascadia Code", "Consolas", "Courier New", monospace;
+    font-family: "Cascadia Code", "Droid Sans Mono", "Consolas", monospace;
     text-align: right;
     color: #BBB;
 }
@@ -240,7 +240,7 @@ sub {
 .post pre, .page pre {
     padding: .8em;
     font-size: 12.6px;
-    font-family: "Cascadia Code", "Consolas", "Courier New", monospace;
+    font-family: "Cascadia Code", "Droid Sans Mono", "Consolas", monospace;
     line-height: 18px;
     overflow: auto;
     background-color: var(--code-bg-color);
@@ -316,7 +316,7 @@ header h2 {
 }
 
 .pages {
-    font-family: "Cascadia Code", "Consolas", "Courier New",monospace;
+    font-family: "Cascadia Code", "Droid Sans Mono", "Consolas", monospace;
     line-height: 2.5em;
     margin: 4.5em 0 3em;
     background-color:  #2e4053;
@@ -359,7 +359,7 @@ code {
     box-sizing: border-box;
     background-color: #17202a;
     color: #C7254E;
-    font-family: "Cascadia Code", "Consolas", "Courier New",monospace;
+    font-family: "Cascadia Code", "Droid Sans Mono", "Consolas", monospace;
     font-size: 12.6px;
     line-height: 18px;
     padding-bottom: 2px;
@@ -369,7 +369,7 @@ code {
 }
 
 footer {
-    font-family: "Cascadia Code", "Consolas", "Courier New",monospace;
+    font-family: "Cascadia Code", "Droid Sans Mono", "Consolas", monospace;
     line-height: 2.5em;
     text-align: center;
     color: #BBB;
