@@ -33,6 +33,7 @@ STATIC_PATHS = [
 ]
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}, 
+    'extra/favicon.png': {'path': 'favicon.png'}, 
 }
 
 # Feed generation is usually not desired when developing
