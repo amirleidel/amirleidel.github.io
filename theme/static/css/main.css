@@ -186,7 +186,7 @@ thead {
 }
 
 .page {
-    margin: 0 90px;
+    margin: 0 0px;
 }
 
 .highlight {
@@ -371,7 +371,6 @@ code {
 footer {
     font-family: "Cascadia Code", "Droid Sans Mono", "Consolas", monospace;
     line-height: 2.5em;
-    vertical-align: middle;
     text-align: center;
     color: #BBB;
     margin: 3em 0;
