@@ -1,5 +1,5 @@
 Title: Finite Difference Calculus
-Date: 2025-01-02 13:00
+Date: 2025-01-02 12:00
 Category: Math
 Authors: Amir J. G. Leidel
 Summary: Using the Calculus of Finite Differences as an elegant solution of Faulhaber sums.
