@@ -2,7 +2,7 @@ Title: Mechanical Clocks
 Date: 2021-09-06
 Category: Physics
 Tags: mechanical clocks
-Authors: Amir J. G. Leidel
+Authors: Amir
 Summary: An overview of how mechanical clocks keep time
 Status: hidden
 

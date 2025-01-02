@@ -1,7 +1,7 @@
 Title: A Plethora of Number Systems
 Date: 2024-05-14 12:01
 Category: Math
-Slug: 
+Authors: Amir
 Summary: What exactly are other number systems than decimal?
 
 _Let us imagine we are trying to tackle the task of building a calculating machine, how would we go about that? Before we can come to that, we need to understand how numbers are encoded._
