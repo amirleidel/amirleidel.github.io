@@ -180,7 +180,7 @@ $$
 $$
 and the sum of fourth powers that we wanted to obtain
 $$
-	S_4(n) = \sum_{k=1}^{n} k^5 = \frac{1}{5} n^5 + \frac{1}{2} n^4 + \frac{1}{3} n^3 - \frac{1}{30} n.
+	S_4(n) = \sum_{k=1}^{n} k^4 = \frac{1}{5} n^5 + \frac{1}{2} n^4 + \frac{1}{3} n^3 - \frac{1}{30} n.
 $$
 
 # Concluding remarks.
