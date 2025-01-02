@@ -42,7 +42,7 @@ time, mark, audio, video {
 em {
     font-style: italic;
 }
-strong {
+strong { 
     font-weight: bold;
 }
 /* HTML5 display-role reset for older browsers */
