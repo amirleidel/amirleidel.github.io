@@ -10,6 +10,7 @@ from pelicanconf import *
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = "https://www.ajgl.blog"
 
+WITH_FUTURE_DATES = False
 LOAD_CONTENT_CACHE = True
 RELATIVE_URLS = False
 

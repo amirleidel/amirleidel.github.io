@@ -175,7 +175,7 @@ thead {
 }
 
 .post {
-    margin: 0 0 4.5em 150px;
+    margin: 0 0 2.5em 150px;
 }
 .post.archives {
     margin-bottom: 1.5em;
@@ -370,12 +370,13 @@ code {
 
 footer {
     font-family: "Cascadia Code", "Droid Sans Mono", "Consolas", monospace;
-    line-height: 2.5em;
+	font-size: 12px;
+    line-height: 1.1;
     text-align: center;
     color: #BBB;
-    margin: 3em 0;
-    border: 1px solid #EEE;
-    border-radius: 5px;
+    margin: 2em 0;
+    /* border: 1px solid #EEE;
+    border-radius: 5px; */
 }
 footer p { margin: 0; }
 
@@ -400,7 +401,7 @@ footer p { margin: 0; }
         margin: 0 0 .5em 0;
     }
     .post {
-        margin: 0 0 4.5em 0;
+        margin: 0 0 1.5em 0;
     }
     .post pre,
     .post code {
