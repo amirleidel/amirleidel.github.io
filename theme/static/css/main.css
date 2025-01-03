@@ -9,16 +9,16 @@ License: none (public domain)
 /* Modified by ajgl */
 
 :root {
-    --main-bg-color: #1c2833;
-    --code-bg-color: #17202a;
-    --accent-color: #C7254E;
-    --tab-bg-hover: var(--code-bg-color);
-    --info-bg-color: var(--code-gb-color);
+    --main-bg-color: #303;
+    --code-bg-color: #033;
+    --accent-color:  #ffc;
+    --tab-bg-hover:  #c06;
+    --info-bg-color: #ccc;
+	--a-color:       #00f
 }
 
 
-
-html, body, div, span, applet, object, iframe,
+html, body, div, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -40,6 +40,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 em {
+	color: var(--accent-color);
     font-style: italic;
 }
 strong { 
@@ -66,8 +67,11 @@ q:before, q:after {
     content: none;
 }
 table {
+	border: 2px inset var(--accent-color);
     border-collapse: collapse;
     border-spacing: 0;
+    width: 100%;
+    margin: 1em 0;
 }
 
 body {
@@ -84,7 +88,7 @@ header, #wrapper {
 
 a {
     text-decoration: none;
-    color: #15A9DB;
+    color: var(--a-color);
 }
 
 ul {
@@ -116,14 +120,6 @@ blockquote {
     margin: 1.5em 1.5em 1.5em .75em;
     padding-left: .75em;
     border-left: 1px solid #EEE;
-}
-
-table {
-    width: 100%;
-    margin: 1em 0;
-}
-thead {
-    border-bottom: 1px solid black;
 }
 
 .avatar {
@@ -214,7 +210,7 @@ td.code {
 
 img {
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 0.3em;
+    border-radius: 0.0em;
     max-width: 100%;
     display: block;
     margin-left: auto;
@@ -239,7 +235,7 @@ sub {
 
 .post pre, .page pre {
     padding: .8em;
-    font-size: 12.6px;
+    font-size: 14px;
     font-family: "Cascadia Code", "Droid Sans Mono", "Consolas", monospace;
     line-height: 18px;
     overflow: auto;
@@ -287,7 +283,7 @@ nav a:hover {
     color: var(--accent-color);
 }
 nav li.selected a {
-    background-color: #15A9DB;
+    background-color: var(--tab-bg-hover);
     color: #FFF;
 }
 
@@ -298,7 +294,7 @@ header .header_box {
 .site_title {
     position: relative; 
     bottom: 15px; 
-    color: #15A9DB
+    color: inherit;
 }
 header h1 {
     font-size: 1.5em;
@@ -352,15 +348,10 @@ header h2 {
 }
 
 code {
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
     box-sizing: border-box;
-    background-color: #17202a;
-    color: #C7254E;
+    background-color: var(--code-bg-color);
     font-family: "Cascadia Code", "Droid Sans Mono", "Consolas", monospace;
-    font-size: 12.6px;
+    font-size: 14px;
     line-height: 18px;
     padding-bottom: 2px;
     padding-left: 0px;
