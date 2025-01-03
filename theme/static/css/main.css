@@ -377,15 +377,15 @@ footer p { margin: 0; }
 
 @media screen and (max-width: 1024px) {
     #wrapper {
-        margin-left: 2.6em;
-        padding:1em;
+        margin-left: 1em;
+        padding:0em;
     }
 }
 
 @media screen and (max-width: 800px), print {
     #wrapper {
-        margin: 0;
-        padding: 1em;
+        margin: 1em;
+        padding: 0em;
     }
     .date {
         width: 100%;
@@ -404,6 +404,10 @@ footer p { margin: 0; }
     nav ul {
         margin: 0 0 1em 0;
     }
+	
+	footer {
+		font-size: 10px;
+	}
 }
 @media print {
     * {

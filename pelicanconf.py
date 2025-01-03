@@ -29,6 +29,7 @@ SITELOGO = ''
 
 STATIC_PATHS = [
     'images',
+    'scripts',
     'extra',  
 ]
 EXTRA_PATH_METADATA = {
