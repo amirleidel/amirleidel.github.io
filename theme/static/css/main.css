@@ -15,6 +15,7 @@ License: none (public domain)
     --tab-bg-hover:  #c06;
     --info-bg-color: #ccc;
 	--a-color:       #00f; 
+    --post-color:    #311; 
 }
 
 
@@ -168,6 +169,15 @@ blockquote {
 }
 .info a.tags.selected {
     border: 1px #999 solid;
+}
+
+.post-wrapper {
+    padding: 0.5em;
+    margin: 1em;
+    border-style: outset;
+    border-color: #999;
+    border-width: 5px;
+    /*background-color: var(--post-color);*/
 }
 
 .post {
@@ -377,7 +387,7 @@ footer p { margin: 0; }
 
 @media screen and (max-width: 1024px) {
     #wrapper {
-        margin-left: 1em;
+        margin: 1em;
         padding:0em;
     }
 }

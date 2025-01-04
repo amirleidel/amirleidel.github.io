@@ -11,7 +11,7 @@ from pelicanconf import *
 SITEURL = "https://www.ajgl.blog"
 
 WITH_FUTURE_DATES = False
-LOAD_CONTENT_CACHE = True
+LOAD_CONTENT_CACHE = False
 RELATIVE_URLS = False
 
 #FEED_ALL_ATOM = "feeds/all.atom.xml"

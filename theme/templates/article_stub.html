@@ -1,3 +1,4 @@
+            <div class="post-wrapper">
             {% if not articles_page or first_article_of_day %}
             <h4 class="date">{{ article.date.strftime("%b %d, %Y") }}</h4>
             {% endif %}
@@ -50,3 +51,4 @@
 		{% include "disqus.html" %}
 		{% endif %}
             </article>
+        </div>
