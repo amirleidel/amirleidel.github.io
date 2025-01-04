@@ -4,7 +4,7 @@ Category: Photos
 Authors: Amir
 Summary: Some photos from July and August that I took as a kid.
 Cover: ../images/gallery-of-2006/060727_071513.jpg,../images/gallery-of-2006/060727_071311.jpg,../images/gallery-of-2006/060727_071331.jpg
-
+ 
 # Some photos from July and August that I took as a kid.
 
 !['Afternoon courtyard view'](../images/gallery-of-2006/060801_163448.jpg '060801_163448.jpg')
