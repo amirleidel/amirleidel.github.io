@@ -291,10 +291,12 @@ nav a {
 nav a:hover {
     background-color: var(--tab-bg-hover);
     color: var(--accent-color);
+    font-style: italic;
 }
 nav li.selected a {
     background-color: var(--tab-bg-hover);
     color: #FFF;
+    font-style: normal;
 }
 
 header .header_box {
