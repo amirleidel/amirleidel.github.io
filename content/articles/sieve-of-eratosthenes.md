@@ -102,7 +102,7 @@ Looking at how many operations this needs, we need to count how many elements th
 $$
     \frac{n}{2} + \frac{n}{3} + \frac{n}{5}.. \\
     = n \left( \frac{1}{2} + \frac{1}{3} + \frac{1}{5}.. \right) \\
-    = n \sum_{p \; \text{prime} \\ \leq n} \frac{1}{p}
+    = n \sum_{p \; \text{prime} \\ \leq \sqrt{n}} \frac{1}{p}
 $$
 This is because, we iterate over all multiples of $2$ that are less than $n$, after which we go through all multiples of the other prime numbers, until we reach $\sqrt{n}$. 
 
