@@ -4,7 +4,7 @@ SITEURL = ""
 
 from datetime import datetime
 from pelican.plugins import render_math
-PLUGINS = [render_math]
+PLUGINS = [render_math,"static_comments"]
 MATH_JAX = {"tex_extensions" : ["physics.js"],
             "linebreak_automatic" : True,
 	    "message_style" : None,
@@ -52,6 +52,8 @@ WITH_FUTURE_DATES = True
 
 DEFAULT_PAGINATION = 10
 
+STATIC_COMMENTS = True
+STATIC_COMMENTS_DIR = "announcements"
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 

@@ -91,6 +91,12 @@
         </div>
     </header>
     {% endif %}
+    <div id="column-wrapper">
+    <div id="lsidebar"> 
+     <div class="side-post-wrapper"> 
+    under construction..
+    </div>
+    </div>
     <div id="wrapper">
         <div id="content">
             {%- block content -%}{%- endblock %}
@@ -111,6 +117,17 @@
             {% endif %}
         </div>
         <div class="clear"></div>
+    </div>
+    <div id="rsidebar">
+    <div class="side-post-wrapper"> 
+    {% if STATIC_COMMENTS %}
+    <section id="announcement">
+    <h2>Announcements!</h2>
+    {{ANNOUNCEMENTS}}
+    </section>
+    {% endif %}
+    </div>
+    </div>
     </div>
 </body>
 </html>
