@@ -171,14 +171,42 @@ blockquote {
     border: 1px #999 solid;
 }
 
-.post-wrapper {
-    padding: 0.5em;
+.post-outer-wrapper { 
     margin: 1em;
-    border-style: outset;
-    border-color: #999;
-    border-width: 5px;
-    /*background-color: var(--post-color);*/
+    --notchSize: 60px;
+    clip-path: 
+        polygon(
+          0% 0%,
+          calc(100% - var(--notchSize)) 0%, 
+          100% var(--notchSize), 
+          100% 100%,
+          var(--notchSize) 100%, 
+          0% calc(100% - var(--notchSize))
+        );
+    background: linear-gradient(#999, #333);
+    border: 5px solid;
+    border-color: #999 #999 #333 #333;
 }
+.post-wrapper {
+    margin: auto;
+    padding: 0.5em;
+    --notchSize: 60px;
+    clip-path: 
+        polygon(
+          0% 0%,
+          calc(100% - var(--notchSize)) 0%, 
+          100% var(--notchSize), 
+          100% 100%,
+          var(--notchSize) 100%, 
+          0% calc(100% - var(--notchSize))
+        );
+    /*border-style: solid; 
+    border-color: #999 #999 #333 #333;
+    border-width: 5px;*/
+    background-color: var(--main-bg-color);
+}
+
+
 
 .post {
     margin: 0 0 2.5em 150px;
