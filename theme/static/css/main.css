@@ -143,7 +143,7 @@ body {
 }
 
 header, #wrapper {
-    padding: 0 10px;
+    padding: 0 0px;
     max-width: 830px;
     margin: auto;
 }
@@ -367,25 +367,32 @@ form.inline_edit {
 nav ul {
     float: right;
     list-style: none;
-    margin: 0 0 0 3em;
+    margin: 0 0 0 0em;
     padding: 0;
+	background: #999;
 }
 nav li {
     float: left;
+	box-shadow: inset 2px 2px #dfdfdf, inset -1px -1px black;
 }
 nav a {
+	color: black;
     display: block;
-    padding: 4.5em 10px 10px 10px;
+    padding: 4em 10px 10px 10px;
 }
 nav a:hover {
     background-color: var(--tab-bg-hover);
-    color: var(--accent-color);
-    font-style: italic;
+	box-shadow: inset 2px 2px #dfdfdf, inset -1px -1px black;
+}
+nav a:active {
+    background-color: var(--accent-color);
+	box-shadow: inset 2px 2px #dfdfdf, inset -1px -1px black;
 }
 nav li.selected a {
     background-color: var(--tab-bg-hover);
     color: #FFF;
     font-style: normal;
+	box-shadow: inset 2px 2px #dfdfdf, inset -1px -1px black;
 }
 
 header .header_box {
