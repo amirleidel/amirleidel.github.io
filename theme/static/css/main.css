@@ -233,7 +233,7 @@ blockquote {
 }
 
 .post-outer-wrapper { 
-    margin: 1em;
+    margin: 1em 0em;
     --notchSize: 60px;
     clip-path: 
         polygon(
