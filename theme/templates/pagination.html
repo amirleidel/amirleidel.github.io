@@ -5,13 +5,13 @@
                 <div class="pages">
 
                 {% if articles_page.has_previous() %}
-                    <a href="{{ SITEURL }}/{{ articles_previous_page.url }}" class="prev_page">&larr;&nbsp;Previous</a>
+                    <a href="{{ SITEURL }}/{{ articles_previous_page.url }}" class="prev_page">&lt;&lt;&nbsp;prev</a>
                 {% endif %}
 
                 {% if articles_page.has_next() %}
-                    <a href="{{ SITEURL }}/{{ articles_next_page.url }}" class="next_page">Next&nbsp;&rarr;</a>
+                    <a href="{{ SITEURL }}/{{ articles_next_page.url }}" class="next_page">next&nbsp;&gt;&gt;</a>
                 {% endif %}
 
-                    <span>Page {{ articles_page.number }} of {{ articles_paginator.num_pages }}</span>
+                    <span>page {{ articles_page.number }}/{{ articles_paginator.num_pages }}</span>
                 </div>
 {% endif %}

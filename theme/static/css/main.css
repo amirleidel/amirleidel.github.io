@@ -414,33 +414,37 @@ header h2 {
 
 .pages {
     font-family: "Cascadia Code", "Droid Sans Mono", "Consolas", monospace;
-    line-height: 2.5em;
+    line-height: 2.0em;
     margin: 4.5em 0 3em;
-    background-color:  #2e4053;
-    border-radius: 5px;
+    color: black;
+    background: linear-gradient(90deg,#999, #333);
+    box-shadow: inset 1px 1px #dfdfdf, inset -1px -1px black;
+    border: 1px solid;
+    border-color: #999 #000 #000 #999;
 }
 .pages a.next_page {
     float: right;
     width: 140px;
     text-align: center;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background-color: #EEE;
+    background-color: #aaa;
+	box-shadow: inset 1px 1px #dfdfdf, inset -1px -1px black;
 }
 .pages a.prev_page {
     float: left;
     width: 140px;
     text-align: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    background-color: #EEE;
+    background-color: #aaa;
+	box-shadow: inset 1px 1px #dfdfdf, inset -1px -1px black;
 }
 .pages a {
     color: inherit;
     border: none;
 }
 .pages a:hover {
-    background-color: #DDD;
+    background-color: var(--tab-bg-hover);
+}
+.pages a:active {
+    background-color: var(--accent-color);
 }
 .pages span {
     display: block;
