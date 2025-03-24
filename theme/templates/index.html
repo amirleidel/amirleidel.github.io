@@ -4,8 +4,6 @@
 {% block content %}
 {% set date = None %}
 <script src="../scripts/oneko/oneko.js"></script>
-<div>
-</div>
 {% for article in articles_page.object_list %}
 {%   if date != article.date.date() %}
 {%     set first_article_of_day = True %}

@@ -92,7 +92,13 @@
     </header>
     {% endif %}
     <div id="wrapper">
+    <div id="page-content">
+        <div id="sidebar-left">
+        <div> NEW! Sign my guest book</div>
+        <iframe id="guestbook" src="https://ajgl.atabook.org/" title="my guestbook"></iframe> 
+        </div>
         <div id="content">
+        
             {%- block content -%}{%- endblock %}
 
             {% if DISPLAY_FOOTER or DISPLAY_FOOTER is not defined %}
@@ -110,7 +116,13 @@
 			</footer>
             {% endif %}
         </div>
-        <div class="clear"></div>
+        <div id="sidebar-right">
+        <div>Visitors so far</div>
+        <div style="height: 40px;"><script type="text/javascript" src="https://counter.websiteout.com/js/2/6/0/0"></script></div>
+        <p> more stuff coming soon....
+        </p>
+        </div>
+    </div>
     </div>
 </body>
 </html>
