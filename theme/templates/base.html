@@ -101,20 +101,7 @@
         
             {%- block content -%}{%- endblock %}
 
-            {% if DISPLAY_FOOTER or DISPLAY_FOOTER is not defined %}
-            <div class="clear"></div>
-            <footer> 
-                amirs-blog (c) {{CURRENT_YEAR}} Amir * <a href="{{SITEURL}}/">Home</a> * <a href="{{SITEURL}}/pages/about.html">About</a> * <a href="{{SITEURL}}/pages/contact.html">Contact</a>
-                <br>
-				<a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline;">CC BY 4.0<img style="height:2em;margin-left:3px;display: inline;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:2em;margin-left:3px;display: inline;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a>
-				<a href="https://www.python.org/" target="_blank" rel="noopener"><img src="../extra/python-powered-w.svg" alt="Powered by Python" style="height: 2em; display: inline; "></a>
-				<a href="https://brainmade.org/" target="_blank" rel="noopener"><img src="../extra/brain-made.svg" alt="Brain Made" style="height: 2em; display: inline;" ></a>
-                <a href="https://www.mathjax.org" target="_blank" rel="noopener">
-                <img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax" style="height: 2em; display: inline; " ></a>
-                <a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener"><img src="../extra/notepadpp3.gif" alt="Made using Notepad++" style="height: 2em; display: inline;" ></a>
-				</br>
-			</footer>
-            {% endif %}
+            
         </div>
         <div id="sidebar-right">
         <div>
@@ -129,7 +116,22 @@
         <p> more stuff coming soon....
         </p>
         </div>
+        
     </div>
+    {% if DISPLAY_FOOTER or DISPLAY_FOOTER is not defined %}
+    <div class="clear"></div>
+    <footer> 
+        amirs-blog (c) 2021-{{CURRENT_YEAR}} * <a href="{{SITEURL}}/">Home</a> * <a href="{{SITEURL}}/pages/about.html">About</a> * <a href="{{SITEURL}}/pages/contact.html">Contact</a>
+        <br>
+        <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline;">CC BY 4.0<img style="height:2em;margin-left:3px;display: inline;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:2em;margin-left:3px;display: inline;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a>
+        <a href="https://www.python.org/" target="_blank" rel="noopener"><img src="../extra/python-powered-w.svg" alt="Powered by Python" style="height: 2em; display: inline; "></a>
+        <a href="https://brainmade.org/" target="_blank" rel="noopener"><img src="../extra/brain-made.svg" alt="Brain Made" style="height: 2em; display: inline;" ></a>
+        <a href="https://www.mathjax.org" target="_blank" rel="noopener">
+        <img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax" style="height: 2em; display: inline; " ></a>
+        <a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener"><img src="../extra/notepadpp3.gif" alt="Made using Notepad++" style="height: 2em; display: inline;" ></a>
+        </br>
+    </footer>
+    {% endif %}
     </div>
 </body>
 </html>
