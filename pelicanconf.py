@@ -22,7 +22,9 @@ DEFAULT_LANG = 'en'
 
 # Additional menu item
 MENUITEMS = (
-    ('GitHub', 'https://github.com/amirleidel'),)
+    ('GitHub', 'https://github.com/amirleidel'),
+    ('Meta', '/meta'),
+    )
 DISPLAY_FOOTER = True
 
 SITELOGO = ''
