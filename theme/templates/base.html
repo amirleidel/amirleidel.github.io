@@ -65,18 +65,30 @@
             <ul>
             {% block ephemeral_nav %}{% endblock %}
                 {% if DISPLAY_HOME or DISPLAY_HOME is not defined %}
-                <li{% if output_file == "index.html" %} class="selected"{% endif %}><a href="{{ SITEURL }}/">Home</a></li>
+                <li{% if output_file == "index.html" %} class="selected"{% endif %}>
+                <a href="{{ SITEURL }}/">
+                    <img src="../extra/Home.png" alt="Home" style="width:32;height:32;margin-top:0;box-shadow:none;">Home
+                </a></li>
                 {% endif %}
                 {% if DISPLAY_PAGES_ON_MENU %}
                 {% for p in pages %}
-                <li{% if p == page %} class="selected"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                <li{% if p == page %} class="selected"{% endif %}>
+                <a href="{{ SITEURL }}/{{ p.url }}">
+                    <img src="../extra/{{ p.title }}.png" alt="Home" style="width:32;height:32;margin-top:0;box-shadow:none;">{{ p.title }}
+                </a></li>
                 {% endfor %}
                 {% endif %}
                 {% for title, link in MENUITEMS %}
-                <li><a href="{{ link }}">{{ title }}</a></li>
+                <li>
+                <a href="{{ link }}">
+                    <img src="../extra/{{ title }}.png" alt="Home" style="width:32;height:32;margin-top:0;box-shadow:none;">{{ title }}
+                </a></li>
                 {% endfor %}
                 {% for name, link, file in MENU_INTERNAL_PAGES %}
-                <li{% if output_file == file %} class="selected"{% endif %}><a href="{{ SITEURL }}/{{ link }}">{{ name }}</a></li>
+                <li{% if output_file == file %} class="selected"{% endif %}>
+                <a href="{{ SITEURL }}/{{ link }}">
+                    <img src="../extra/{{ name }}.png" alt="Home" style="width:32;height:32;margin-top:0;box-shadow:none;">{{ name }}
+                </a></li>
                 {% endfor %}
             </ul>
         </nav>
