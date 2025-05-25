@@ -2,6 +2,7 @@ Title: Multidimensional Autodifferentiation
 Date: 2025-05-24 15:30
 Category: Math
 Summary: How to use autodiff on vector valued functions using a Clifford algebra.
+Slug: ga-autodiff
 Author: Amir
 
 # Regular autodiff
@@ -100,7 +101,11 @@ $$
 	FG = \mathbf{fg} + e_0 \dot{\bar{D}}\dot{\mathbf{f}} \mathbf{g} +  e_0 \dot{\bar{D}} \mathbf{f} \dot{\mathbf{g}} \\
 	= \mathbf{fg} + e_0 \bar{D}(\mathbf{fg})
 $$
-with the little detail in the first line that the derivate $\bar{D}$ was pushed to the left side, which was simplified using the product rule.
+with the little detail in the first line that the derivative $\bar{D}$ was pushed to the left side, which was simplified using the product rule:
+$$
+    \bar{D}(\mathbf{fg}) = \dot{\bar{D}} \dot{\mathbf{f}} \mathbf{g} + \dot{\bar{D}} \mathbf{f} \dot{\mathbf{g}}
+$$
+Note that, as the geometric product is not commutative in general, we cannot commute the differential $\bar{D}$ with the vector function $\mathbf{f}$, so the overdots have to be used in order to specify which function is being acted on.
 
-And so, just as in the scalar case, we have that the product of our dual forms $F,G$ contains the product of their original functions $\mathbf{f},\mathbf{g}$ and the derivate of their product.
+And so, just as in the scalar case, we have that the product of our dual forms $F,G$ contains the product of their original functions $\mathbf{f},\mathbf{g}$ and the derivate of their product $\bar{D}(\mathbf{fg})$.
 
