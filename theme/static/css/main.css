@@ -205,15 +205,13 @@ blockquote {
 }
 
 .avatar {
-    border-radius: 50%;
-    -mox-border-radius: 50%;
-    -webkit-border-radius: 50%;
     position: relative;
     bottom: 0;
     top: 0;
     margin: auto;
     display: inline;
     padding-right: 5px;
+    width: 300px;
 }
 
 .date {
