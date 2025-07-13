@@ -104,6 +104,22 @@
     </header>
     {% endif %}
     <div id="wrapper">
+    {% if articles_page %}
+        <img src="../extra/chess/chess1.png" alt="chess piece" style="position: absolute; top: calc(0% + 120px);left: calc(50% - 500px);z-index: 1;">
+        <img src="../extra/chess/chess2.png" alt="chess piece" style="position: absolute; top: calc(0% + 200px);left: calc(50% - 360px);z-index: 1;">
+        <img src="../extra/chess/chess3.png" alt="chess piece" style="position: absolute; top: calc(0% + 100px);left: calc(50% - 250px);z-index: 1;">
+        <img src="../extra/chess/chess4.png" alt="chess piece" style="position: absolute; top: calc(0% + 140px);left: calc(50% - 20px);z-index: 1;">
+        <img src="../extra/chess/chess5.png" alt="chess piece" style="position: absolute; top: calc(0% + 120px);left: calc(50% + 160px);z-index: 1;">
+        <img src="../extra/chess/chess6.png" alt="chess piece" style="position: absolute; top: calc(0% + 82px);left: calc(50% - 650px);z-index: 1;">
+    {% endif %}     
+    {% if not articles_page %}
+        <img src="../extra/chess/chess1.png" alt="chess piece" style="position: absolute; top: calc(0% + 120px);left: calc(50% - 500px);z-index: -1;">
+        <img src="../extra/chess/chess2.png" alt="chess piece" style="position: absolute; top: calc(0% + 200px);left: calc(50% - 360px);z-index: -1;">
+        <img src="../extra/chess/chess3.png" alt="chess piece" style="position: absolute; top: calc(0% + 100px);left: calc(50% - 250px);z-index: -1;">
+        <img src="../extra/chess/chess4.png" alt="chess piece" style="position: absolute; top: calc(0% + 140px);left: calc(50% - 20px);z-index: -1;">
+        <img src="../extra/chess/chess5.png" alt="chess piece" style="position: absolute; top: calc(0% + 120px);left: calc(50% + 160px);z-index: -1;">
+        <img src="../extra/chess/chess6.png" alt="chess piece" style="position: absolute; top: calc(0% + 82px);left: calc(50% - 650px);z-index: -1;">
+    {% endif %}     
     <div id="page-content">
         <div id="sidebar-left">
         <div> Earth doodad</div>
