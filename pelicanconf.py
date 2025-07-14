@@ -52,7 +52,7 @@ SUMMARY_MAX_LENGTH = 200
 SUMMARY_END_SUFFIX = '…'
 WITH_FUTURE_DATES = True
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
