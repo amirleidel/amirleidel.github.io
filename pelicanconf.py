@@ -7,8 +7,7 @@ from pelican.plugins import render_math
 PLUGINS = [render_math]
 MATH_JAX = {"tex_extensions" : ["physics.js"],
             "linebreak_automatic" : True,
-	    "message_style" : None,
-	    "latex_preview" : "Tex"}
+	    "message_style" : None,}
 
 DISPLAY_PAGES_ON_MENU = True
 LOAD_CONTENT_CACHE = False
