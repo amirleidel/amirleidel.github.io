@@ -140,7 +140,7 @@ table {
 body {
     font-family: "Cascadia Code", "Droid Sans Mono", "Consolas", monospace;
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.2em;
 }
 
 header {
@@ -153,6 +153,23 @@ header {
     margin: auto;
     width: fit-content;
     height: fit-content;
+}
+#clock {
+    width: 90%;
+    margin: 0.5em auto;
+    color: #fff;
+    background-color: #000;
+}
+#clock h1 {
+    color: #fff;
+    background-color: #000;
+    margin: 0 0;
+}
+#timeCanvas {
+    margin: 0px 10px;
+    width: 220px;
+    height: 90px;
+    /*border: inset;*/
 }
 #sidebar-left, #sidebar-right {
     background: var(--post-color);
