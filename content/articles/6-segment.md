@@ -13,3 +13,5 @@ What I wanted to have is a pixelated version of these digits, so these are some 
 Lastly, I also made a narrow version of the display as well.
 <img alt="Some versions of 6-segment displays" src="../images/6-segment-narrow.png" style="image-rendering: pixelated;">
 I used these digits in making the 6-segment clock on this page. So you can see a live example of how they perform when used to display numbers. As an additional feature, I made clock use the "lowercase 0" for the tens, since I think this fits with the sloped styling of the digits. _Feel free to tell me what you think, and if you find a way to improve on this!_ 
+Also, this is how they look on a 0.91'' 128x32 OLED display, I quickly coded a clock with an ESP board for this.
+!['6-segment on an OLED display'](../images/photo_2025-07-17_18-34-01.jpg)
