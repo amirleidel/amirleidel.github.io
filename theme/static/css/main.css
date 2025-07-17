@@ -354,6 +354,10 @@ img {
     margin-right: auto;
 }
 
+.post img {
+    width: 100%;
+}
+
 /*sub and sup stolen from Twitter bootstrap.*/
 sub, sup {
     position: relative;

@@ -20,12 +20,16 @@
                 {{ article.content }} <!-- Show article in full --> 
 				{% else %}
 				{{ article.summary }} <!-- Show article summary only --> 
-				<!-- Add article cover images (1 to 3 images) if defined--> 
+				<!-- Add article Cover Images (1 to 3 images) if defined--> 
 				{% if article.cover %}		
 				<div style="display: flex; justify-content: space-around; gap: 10px;">
 				  {% for image in article.cover.split(",") %}
 				  <div style="flex: 1; text-align: center;">
-					<img src="{{ image }}" alt="Cover Image {{ loop.index }}" style="max-width: 100%; height: auto;">
+                    {% if article.pixelated %}
+                    <img src="{{ image }}" alt="Cover Image {{ loop.index }}" style="width: 100%; height: auto; image-rendering: pixelated;">
+                    {% else %}
+					<img src="{{ image }}" alt="Cover Image {{ loop.index }}" style="width: 100%; height: auto; ">
+                    {% endif %}
 				  </div>
 				  {% endfor %}
 				</div>
