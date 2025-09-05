@@ -1,7 +1,7 @@
 Title: Higher Order Approximation of the Oscillation Period of a Pendulum
 Date: 2025-09-05 22:00
 Category: Math
-Summary: Or how to calculate the oscillation period of a pendulum more accurately.
+Summary: Or how to calculate the oscillation period of a pendulum more accurately using the complete elliptic integral of the first kind.
 
 # Net Energy in the System
 
