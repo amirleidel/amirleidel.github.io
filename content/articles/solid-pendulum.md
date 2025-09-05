@@ -56,7 +56,7 @@ $$
 $$
 which we can differentiate with respect to $\alpha$, turning it into 
 $$
-    k \cos{\alpha} = \frac{1}{2} \underbrace{\cos \frac{\phi}{2}}_{\sqrt{1 - b^2 \sin{\alpha}^2}} \frac{d\phi}{d\alpha}.
+    k \cos{\alpha} = \frac{1}{2} \underbrace{\cos \frac{\phi}{2}}_{\sqrt{1 - k^2 \sin{\alpha}^2}} \frac{d\phi}{d\alpha}.
 $$
 Taking the substitution $d \alpha \frac{d\phi}{d\alpha} = d\phi$ inside the integral, we obtain
 $$
