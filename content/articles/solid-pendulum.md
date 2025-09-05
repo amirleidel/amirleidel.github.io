@@ -42,11 +42,11 @@ $$
 $$
 Which turns the differential equation into 
 $$
-    \dot{\phi}^2 = \frac{2 M R_{CM} g}{I} \sqrt{2 \left( \sin^2{\frac{\phi_{max}}{2}} - \sin^2{\frac{\phi}{2}} \right) }.
+    \dot{\phi}^2 = \frac{4 M R_{CM} g}{I} \left( \sin^2{\frac{\phi_{max}}{2}} - \sin^2{\frac{\phi}{2}} \right) .
 $$
 Defining the constant $k = \sin{\frac{\phi_{max}}{2}}$. Using separation of variables, this turns into the integral equation 
 $$
-    \int_{-\phi_{max}}^{\phi_{max}} \frac{d \phi}{k \sqrt{1- \frac{1}{k^2} \sin^2 \frac{\phi}{2}}} = \int_{0}^{T/2} \sqrt{\frac{M R_{CM} g}{I}} dt.
+    \int_{-\phi_{max}}^{\phi_{max}} \frac{d \phi}{k \sqrt{1- \frac{1}{k^2} \sin^2 \frac{\phi}{2}}} = 2\int_{0}^{T/2} \sqrt{\frac{M R_{CM} g}{I}} dt.
 $$
 The bounds are taken from one maximum angle to the next, which is exactly half an oscillation period $\frac{T}{2}$. The problem is now, left hand integral needs cleaning up inside the square root, wherefore we need to substitute a new angular variable $\alpha$. 
 
@@ -60,12 +60,12 @@ $$
 $$
 Taking the substitution $d \alpha \frac{d\phi}{d\alpha} = d\phi$ inside the integral, we obtain
 $$
-    \int_{-\pi/2}^{\pi/2} \frac{2 k \cos \alpha d \alpha}{2 k \underbrace{\sqrt{1 - \sin^2 \alpha}}_{\cos \alpha} \sqrt{1 - k^2 \sin^2 \alpha} } \\
-    = 2 \int_{0}^{\pi/2} \frac{d \alpha}{\sqrt{1 - k^2 \sin^2 \alpha}}.
+    \int_{-\pi/2}^{\pi/2} \frac{2 k \cos \alpha d \alpha}{k \underbrace{\sqrt{1 - \sin^2 \alpha}}_{\cos \alpha} \sqrt{1 - k^2 \sin^2 \alpha} } \\
+    = 4 \int_{0}^{\pi/2} \frac{d \alpha}{\sqrt{1 - k^2 \sin^2 \alpha}}.
 $$
 With the integral bounds being able to be altered because of the symmetry of the integrand. This integral is not solvable using algebraic functions. In fact, it has its own name as the elliptic integral of the first kind $F(\pi/2,k)$, or, specifically because of the bounds being a quarter circulation, its the complete elliptic integral of the first kind $K(k)$. Therefore this gives us
 $$
-    2 K(k) = \sqrt{\frac{M R_{CM} g}{I}} \frac{T}{2}.
+    4 K(k) = \sqrt{\frac{M R_{CM} g}{I}} T.
 $$
 Which we wanted to solve for the oscillation period $T$, giving us the exact solution
 $$
