@@ -17,14 +17,8 @@ reality.
 So, thats what this website is all about. Nowadays social media
 are more crowded than ever, everything is full of content and 
 people and interaction! But also somehow it really does feel
-more dead than ever. The modern internet is there to generate
-money and it does its job very well. Short content, cluttered
-with advertisement, destroys our attention span. Every second
-youre a datapoint in a sea of billions, that feeds algorithms
-that decide whats best for you. --- No, I wont pay for your
-fucking subscription service!
-
-Sorry, lets get back on track. I just feel like I am yearning
+more dead than ever. Short content, cluttered
+with advertisement, destroys our attention span. I just feel like I am yearning
 for a simpler web, one thats more personal at the same time.
 
 Even though I first started with this webpage in 2021, I
